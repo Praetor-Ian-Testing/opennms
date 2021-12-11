@@ -63,7 +63,7 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpasyncclient-osgi</artifactId>
-            <version>4.1.3</version>
+            <version>4.1.5</version>
         </dependency>
     </dependencies>
 
