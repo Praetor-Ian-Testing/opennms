@@ -712,7 +712,7 @@
                   </goals>
                 </pluginExecutionFilter>
                 <action>
-                  <ignore></ignore>
+                  <ignore/>
                 </action>
               </pluginExecution>
               <pluginExecution>
@@ -725,7 +725,7 @@
                   </goals>
                 </pluginExecutionFilter>
                 <action>
-                    <execute></execute>
+                    <execute/>
                 </action>
               </pluginExecution>
               <pluginExecution>
@@ -966,8 +966,8 @@
             <phase>validate</phase>
             <configuration>
               <target>
-                <property name="opennms.build.basedir" location="." />
-                <echo message="base directory is ${opennms.build.basedir}" />
+                <property name="opennms.build.basedir" location="."/>
+                <echo message="base directory is ${opennms.build.basedir}"/>
               </target>
             </configuration>
             <goals>
@@ -1356,7 +1356,7 @@
     <cassandraVersion>3.5.0</cassandraVersion>
     <cloverVersion>3.2.0</cloverVersion>
     <commonsBeanutilsVersion>1.9.4</commonsBeanutilsVersion>
-    <commonsCodecVersion>1.10</commonsCodecVersion>
+    <commonsCodecVersion>1.13</commonsCodecVersion>
     <commonsCollectionsVersion>3.2.2</commonsCollectionsVersion>
     <commonsConfigurationVersion>1.6</commonsConfigurationVersion>
     <commonsCsvVersion>1.5</commonsCsvVersion>
