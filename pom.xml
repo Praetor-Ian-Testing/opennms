@@ -712,7 +712,7 @@
                   </goals>
                 </pluginExecutionFilter>
                 <action>
-                  <ignore></ignore>
+                  <ignore/>
                 </action>
               </pluginExecution>
               <pluginExecution>
@@ -725,7 +725,7 @@
                   </goals>
                 </pluginExecutionFilter>
                 <action>
-                    <execute></execute>
+                    <execute/>
                 </action>
               </pluginExecution>
               <pluginExecution>
@@ -966,8 +966,8 @@
             <phase>validate</phase>
             <configuration>
               <target>
-                <property name="opennms.build.basedir" location="." />
-                <echo message="base directory is ${opennms.build.basedir}" />
+                <property name="opennms.build.basedir" location="."/>
+                <echo message="base directory is ${opennms.build.basedir}"/>
               </target>
             </configuration>
             <goals>
@@ -1344,7 +1344,7 @@
     <activemqVersion>5.14.5</activemqVersion>
     <atomikosVersion>3.9.2</atomikosVersion>
     <awsSqsMessagingVersion>1.0.4</awsSqsMessagingVersion>
-    <awsSdkVersion>1.11.218</awsSdkVersion>
+    <awsSdkVersion>1.12.246</awsSdkVersion>
     <batikVersion>1.7</batikVersion>
     <bouncyCastleVersion>1.66</bouncyCastleVersion>
     <bsfVersion>2.4.0</bsfVersion>
