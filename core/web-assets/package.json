@@ -114,7 +114,7 @@
         "jquery.flot.tooltip": "https://github.com/krzysu/flot.tooltip.git#0.9.0",
         "leaflet": "~1.0.3",
         "leaflet.markercluster": "~1.0.6",
-        "moment": "^2.24.0",
+        "moment": "^2.29.4",
         "popper.js": "^1.15.0",
         "regenerator-runtime": "^0.13.3",
         "tempusdominus-bootstrap-4": "^5.1.2",
