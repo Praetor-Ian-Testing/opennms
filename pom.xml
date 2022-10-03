@@ -712,7 +712,7 @@
                   </goals>
                 </pluginExecutionFilter>
                 <action>
-                  <ignore></ignore>
+                  <ignore/>
                 </action>
               </pluginExecution>
               <pluginExecution>
@@ -725,7 +725,7 @@
                   </goals>
                 </pluginExecutionFilter>
                 <action>
-                    <execute></execute>
+                    <execute/>
                 </action>
               </pluginExecution>
               <pluginExecution>
@@ -966,8 +966,8 @@
             <phase>validate</phase>
             <configuration>
               <target>
-                <property name="opennms.build.basedir" location="." />
-                <echo message="base directory is ${opennms.build.basedir}" />
+                <property name="opennms.build.basedir" location="."/>
+                <echo message="base directory is ${opennms.build.basedir}"/>
               </target>
             </configuration>
             <goals>
@@ -1407,7 +1407,7 @@
     <httpclientVersion>4.5.2</httpclientVersion>
     <httpasyncclientVersion>4.1.3</httpasyncclientVersion>
     <jacksonVersion>1.9.13</jacksonVersion>
-    <jackson2Version>2.10.5</jackson2Version>
+    <jackson2Version>2.13.4</jackson2Version>
     <jacocoVersion>0.8.5</jacocoVersion>
     <jasperreportsVersion>6.3.0</jasperreportsVersion>
     <jasperreportsMavenPluginVersion>1.0-beta-4-OPENNMS-20160912-1</jasperreportsMavenPluginVersion>
@@ -1428,7 +1428,7 @@
     <jsonlibVersion>2.4</jsonlibVersion>
     <jsonlibBundleVersion>2.4_1</jsonlibBundleVersion>
     <karafVersion>4.2.11</karafVersion>
-    <kafkaBundleVersion>2.7.0_1</kafkaBundleVersion>
+    <kafkaBundleVersion>3.0.0_1</kafkaBundleVersion>
     <kafkaVersion>2.7.0</kafkaVersion>
     <liquibaseVersion>3.6.3</liquibaseVersion>
     <lmaxDisruptorVersion>3.3.2</lmaxDisruptorVersion>
